@@ -47,5 +47,21 @@
       }
     }
   }
+  .item3{
+    overflow: hidden;
+    .description {
+      padding: 0 15px;
+      border-bottom-width: 0px ;
+      max-height: 0;
+      transition:ease 0.3s;
+    }
+    &.current{
+      .description {
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+        max-height: 300px;
+      }
+    }
+  }
 
 }

@@ -32,7 +32,7 @@ const Accordion2 = () => {
 
   return (
     <>
-      <h3>#2.React</h3>
+      <h3>#2.React<sub>display accordion with css</sub></h3>
       <ul className={cx('container')}>
         {data.map(d => (
           <AccordionItem {...d} key={d.id} current={currentId === d.id} toggleItem={()=>toggleItem(d.id)} />
